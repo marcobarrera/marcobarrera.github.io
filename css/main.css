@@ -109,11 +109,11 @@ nav ul li a {
 }
 #profile_image {
     padding-top: 20px;
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 25%;
+    max-height: 25%;
     display: block;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 90%;
 }
 hr {
     width: 150px;
