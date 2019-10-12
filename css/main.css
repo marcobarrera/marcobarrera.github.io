@@ -123,8 +123,9 @@ hr {
     background-color: black;
     opacity: .8;
     height: 400px;
-    width: 65%;
+    width: 50%;
     margin: auto;
+    margin-top: 150 px;
     border-radius: 10px;
     text-align: center;
   }
