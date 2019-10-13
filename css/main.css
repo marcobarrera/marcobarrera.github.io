@@ -150,8 +150,10 @@ hr {
   
   .social-links {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    max-width: 50%;
     margin: auto;
   }
   
