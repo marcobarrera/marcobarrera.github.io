@@ -1,162 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo');
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
 body {
-    font-family: 'Cardo';
-}
-.wrapper {
-	margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-header {
-    width: 100%;
-    height: 100vh;
-    background: url(https://backgrounddownload.com/wp-content/uploads/2018/09/workspace-background-3.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-#about_section {
-	width: 100%;
-    height: 100vh;
-    background-color: #2b7a78;
-    text-align: center;
-}
-#portfolio {
-    width: 100%;
-    height: 100vh;
-    background-color: blue;
-    text-align: center;
-}
-.logo {
-    position: fixed;
-    float: left;
-    margin: 16px 36px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
-}
-nav {
-    position: fixed;
-    width: 100%;
-}
-nav ul {
-    list-style: none;
-    background: rgba(0,0,0,0);
-    overflow: hidden;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    transition: 1s;
-}
-nav.black ul {
-    background: #000;
-}
-nav ul li {
-    display: inline-block;
-    padding: 20px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-.menu-icon {
-	width: 100%;
-    background: #000;
-    text-align: right;
-    box-sizing: border-box;
-    padding: 15px 24px;
-    cursor: pointer;
-    color: #fff;
-    display: none;
-}
-@media(max-width: 580px) {
-    .logo {
-	    position: fixed;
-        top: 0;
-        margin-top: 16px;
-     }
-    nav ul {
-        max-height: 0px;
-        background: #000;
-    }
-    nav.black ul {
-        background: #000;
-    }
-    .showing {
-        max-height: 20em;
-    }
-    nav ul li {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 24px 0;
-        text-align: center;
-    }
-    .menu-icon {
-	    display: block;
-    }
-}
-#title {
-    padding-top: 60px;
-}
-#img-div {
-    font-size: 20px;
-}
-#profile_image {
-    padding-top: 20px;
-    max-width: 25%;
-    max-height: 25%;
-    display: block;
-    margin: auto;
-    border-radius: 90%;
-}
-hr {
-    width: 150px;
+	overflow-x: hidden; /*--right gutter fix--*/
+    font-family: sans-serif;
+    color: #505962;
 }
 
-.banner-text {
-    background-color: black;
-    opacity: .8;
-    width: 50%;
-    margin: auto;
-    border-radius: 10px;
+.navbar {
+    text-transform: uppercase;
+    background-color: #505962;
+}
+
+.home-inner {
+    background-image: url(https://ak4.picdn.net/shutterstock/videos/14941774/thumb/1.jpg);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1; 
+}
+
+.caption h3 {
+    color: white;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+}
+
+h3.heading {
     text-align: center;
-  }
-  
-  .banner-text h1 {
-    font-size: 66px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .banner-text hr {
-    border-top: 5px dotted white;
-    width: 50%;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+
+.text-center {
     margin: auto;
-  }
-  
-  .banner-text p {
-    color: white;
-    font-size: 20px;
-    padding: 1em;
-  }
-  
-  .social-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-    max-width: 50%;
-    margin: auto;
-  }
-  
-  .social-links i {
-    color: white;
-    font-size: 5em;
-    padding: 8px;
-  }
+}
+
+.padding {
+    padding: 2rem 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: inline-flex;
+}
+
+.app-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+footer {
+    background: black;
+}
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
