@@ -69,6 +69,10 @@ h3.heading {
     padding: 20px;
 }
 
+.card-img-top {
+    height: 200px;
+}
+
 .row {
     text-align: center;
 }
