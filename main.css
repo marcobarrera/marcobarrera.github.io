@@ -84,9 +84,14 @@ footer {
 }
 
 .container {
-    display: flex;
+    display: grid;
     justify-content: center;
     padding-top: 25px;
+}
+.contact-info {
+    text-align: center;
+    color: white;
+    padding-right: 50px;
 }
 
 /*--- iOS Landing Page Fix --*/
