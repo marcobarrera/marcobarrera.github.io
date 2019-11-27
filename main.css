@@ -12,7 +12,6 @@ body {
 .home-inner {
     background-image: url(https://image.freepik.com/free-photo/working-space-business-freelance-concept-top-view-flat-lay-with-hands-working-laptop-toning_1220-1629.jpg);
 }
-
 .caption {
     width: 100%;
     max-width: 100%;
@@ -94,7 +93,7 @@ footer {
     padding-right: 30px;
 }
 
-/*--- iOS Landing Page Fix --*/
+/*--- Landing Page Fix --*/
 .landing {
   position: relative;
   width: 100%;
