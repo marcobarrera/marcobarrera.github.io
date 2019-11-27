@@ -64,7 +64,11 @@ h3.heading {
   height: 450px;
   width: 18rem;
 }
-
+.project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .app-card {
     text-align: center;
     padding: 20px;
