@@ -129,3 +129,7 @@ footer {
   transform: translateZ(0);
   will-change: transform;
 }
+.jumbotron {
+    background: black;
+    color: white;
+}
