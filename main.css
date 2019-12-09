@@ -10,7 +10,8 @@ body {
 }
 
 .home-inner {
-    background-image: url(https://image.freepik.com/free-photo/working-space-business-freelance-concept-top-view-flat-lay-with-hands-working-laptop-toning_1220-1629.jpg);
+    background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/background-web-designer-2.jpg);
+    
 }
 .caption {
     width: 100%;
@@ -82,25 +83,19 @@ h3.heading {
     height: 200px;
 }
 
-.row {
-    text-align: center;
-}
-
 footer {
     background: black;
 }
-
+.row {
+    margin: 35px;
+}
 .container {
-    display: grid;
+    display: flex;
     justify-content: center;
-    padding-top: 25px;
 }
-.contact-info {
-    text-align: center;
-    color: white;
-    padding-right: 30px;
+.icon {
+    padding: 0 10px;
 }
-
 /*--- Landing Page Fix --*/
 .landing {
   position: relative;
