@@ -87,7 +87,7 @@ footer {
     background: black;
 }
 .row {
-    margin: 35px;
+    margin: 25px;
 }
 .container {
     display: flex;
@@ -129,4 +129,11 @@ footer {
 .jumbotron {
     background: black;
     color: white;
+}
+i {
+    color: white;
+}
+.skills {
+    display: flex;
+    justify-content: center;
 }
