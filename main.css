@@ -1,7 +1,6 @@
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
   font-family: sans-serif;
-  color: #505962;
 }
 .navbar {
   text-transform: uppercase;
@@ -70,23 +69,45 @@ h1.heading {
 }
 
 /*--- About Section --*/
-.jumbotron {
-  background: black;
-  color: white;
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
 }
-.text-center {
-  margin: auto;
+.left {
+  background: #89ABE3FF;
+  color: white;
 }
 .about-header {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
-.skills {
+.right {
+  background: #FCF6F5FF;
+  color: #89ABE3FF;
+}
+.skills-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.skill-column {
   display: flex;
   justify-content: center;
 }
-
+.skills-1 {
+  display: grid;
+  margin: 20px 40px;
+}
+.tech {
+  display: flex;
+}
 /*--- Portfolio Cards --*/
+#portfolio {
+  background: white;
+  margin-top: 30px;
+}
 * {
   box-sizing: border-box;
 }
