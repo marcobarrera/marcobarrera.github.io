@@ -4,7 +4,7 @@ body {
 }
 .navbar {
   text-transform: uppercase;
-  background-color: black;
+  background-color: white;
 }
 .landing {
   position: relative;
@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 .home-inner {
-  background-image: url(background-web-designer-2.jpg);
+  background-color: black;
 }
 .home-inner {
   position: fixed;
