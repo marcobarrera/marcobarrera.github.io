@@ -108,6 +108,7 @@ h1.heading {
 
 .skill-column {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
